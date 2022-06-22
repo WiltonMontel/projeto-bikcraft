@@ -1,0 +1,25 @@
+/* Reset do navegador */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit; /* herdar do pai */
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+/* Só adiciona a borda se a img terminar com jpg */
+img[src$=".jpg"] {
+  border-radius: 4px;
+}
