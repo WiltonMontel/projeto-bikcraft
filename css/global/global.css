@@ -18,6 +18,7 @@ a {
 img {
   max-width: 100%;
   display: block;
+  height: auto;
 }
 /* Só adiciona a borda se a img terminar com jpg */
 img[src$=".jpg"] {
